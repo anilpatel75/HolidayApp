@@ -1,0 +1,11 @@
+<div class="container">
+  <div layout="row" class="homeBtn">
+    <a [routerLink]="['/home']">Go To HolidayList</a>
+  </div>
+  <mat-card *ngFor="let holiday of holidayDetails">
+      <mat-card-title><b>Holiday Name: </b>{{formatDate(holiday.date)}}</mat-card-title>
+      <mat-card-subtitle>
+        <b>Is Public Holiday: </b>{{formatDate(holiday.date)}}
+      </mat-card-subtitle>
+  </mat-card>
+</div>

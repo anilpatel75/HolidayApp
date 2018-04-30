@@ -1,0 +1,19 @@
+.homeBtn{
+  text-align: left;
+  font-size: 14px;
+  padding: 20px 0px;
+}
+.homeBtn a{
+    border-bottom:1px solid #551a8b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color:#551a8b;
+}
+mat-card{
+  text-align: left;
+}
+.homeBtn a:active{
+  color:#551a8b;
+}

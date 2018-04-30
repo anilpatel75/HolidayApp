@@ -1,0 +1,11 @@
+
+<div class="container">
+<div class="holidayList">
+    <mat-card *ngFor="let holidays of getKeysData(holidaysData)">
+        <mat-card-actions (click)="handleHolidayClick(holidays)">
+          <div>{{formatDate(holidays) | uppercase}}</div>
+        </mat-card-actions>
+
+    </mat-card>
+</div>
+</div>
